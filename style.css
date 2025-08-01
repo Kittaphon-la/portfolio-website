@@ -42,7 +42,7 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #ff0000;
     text-decoration: none;
 }
 
@@ -53,14 +53,14 @@ body {
 }
 
 .nav-link {
-    color: #333;
+    color: #ff1f1f;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #3498db;
+    color: #fdd963;
 }
 
 .nav-toggle {
@@ -83,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     padding: 100px 20px 50px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff2929 0%, #ffcc80 100%);
     color: white;
 }
 
@@ -130,12 +130,12 @@ body {
 }
 
 .btn-primary {
-    background: #3498db;
+    background: #db3434;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #2980b9;
+    background: #b92929;
     transform: translateY(-2px);
 }
 
@@ -168,7 +168,7 @@ body {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 3rem;
-    color: #2c3e50;
+    color: #740505;
 }
 
 /* About Section */
@@ -187,7 +187,7 @@ body {
 .about-text p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #666;
+    color: #ff3a3a;
 }
 
 .about-stats {
@@ -202,7 +202,7 @@ body {
 
 .stat-item h3 {
     font-size: 2rem;
-    color: #3498db;
+    color: #db3434;
     margin-bottom: 0.5rem;
 }
 
@@ -237,13 +237,13 @@ body {
 
 .skill-item i {
     font-size: 3rem;
-    color: #3498db;
+    color: #db3434;
     margin-bottom: 1rem;
 }
 
 .skill-item h3 {
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #880000;
 }
 
 /* Projects Section */
@@ -282,11 +282,11 @@ body {
 
 .project-info h3 {
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #7e1414;
 }
 
 .project-info p {
-    color: #666;
+    color: #ff6464;
     margin-bottom: 1.5rem;
 }
 
@@ -314,7 +314,7 @@ body {
 .contact-info h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #502c2c;
 }
 
 .contact-info p {
@@ -334,7 +334,7 @@ body {
 
 .contact-item i {
     font-size: 1.2rem;
-    color: #3498db;
+    color: #db3434;
     margin-right: 1rem;
     width: 20px;
 }
@@ -350,7 +350,7 @@ body {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: #3498db;
+    background: #690000;
     color: white;
     border-radius: 50%;
     text-decoration: none;
@@ -358,7 +358,7 @@ body {
 }
 
 .social-links a:hover {
-    background: #2980b9;
+    background: #b92929;
 }
 
 /* Contact Form */
@@ -385,12 +385,12 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #3498db;
+    border-color: #db3434;
 }
 
 /* Footer */
 .footer {
-    background: #2c3e50;
+    background: #ff3737;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -517,12 +517,12 @@ body {
 .theme-toggle {
     cursor: pointer;
     font-size: 1.2rem;
-    color: #333;
+    color: #ff5555;
     transition: color 0.3s ease;
 }
 
 .theme-toggle:hover {
-    color: #3498db;
+    color: #ff1c1c;
 }
 
 /* Update other elements to use CSS variables */
@@ -556,7 +556,7 @@ body {
     width: 50px;
     height: 50px;
     border: 5px solid #f3f3f3;
-    border-top: 5px solid #3498db;
+    border-top: 5px solid #db3434;
     border-radius: 50%;
     animation: spin 1s linear infinite;
     margin: 0 auto 1rem;
@@ -584,7 +584,7 @@ body {
 
 .progress-bar {
     height: 100%;
-    background: linear-gradient(90deg, #3498db, #f39c12);
+    background: linear-gradient(90deg, #db3434, #f39c12);
     width: 0%;
     transition: width 0.1s ease;
 }
@@ -611,7 +611,7 @@ body {
 
 .filter-btn.active,
 .filter-btn:hover {
-    background: #3498db;
+    background: #db3434;
     color: white;
 }
 
@@ -636,7 +636,7 @@ body {
     right: 30px;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: #ff1313;
     color: white;
     border: none;
     border-radius: 50%;
@@ -654,6 +654,6 @@ body {
 }
 
 .back-to-top:hover {
-    background: #2980b9;
+    background: #ffb921;
     transform: translateY(-2px);
 }
