@@ -48,7 +48,10 @@
         <h1>
             👋 Hi there! I'm <span class="highlight">Kittaphon & Nattakit</span>
         </h1>
-        <p class="hero-subtitle">Full Stack Developer & Creative Technologist</p>
+        <p class="hero-subtitle">Full Stack Developer & Creative Technologist
+            <span id="typing-text"></span>
+            <span class="cursor">|</span>
+        </p>
         <p class="hero-description">
             I build <span class="highlight">elegant</span> and <span class="highlight">high-performance</span> web applications that solve real-world problems.
         </p>
@@ -133,46 +136,56 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="https://media1.tenor.com/m/MtXOI1p5t4gAAAAd/crazy-cat-funny-cat.gif" alt="Project 1">
-                    <div class="project-info">
-                        <h3>E-commerce Website</h3>
-                        <p>A full-stack e-commerce solution built with React and Node.js</p>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="https://media1.tenor.com/m/KAcURw1ORlAAAAAC/phew-robertdowneyjr.gif" alt="Project 2">
-                    <div class="project-info">
-                        <h3>Task Management App</h3>
-                        <p>A collaborative task management application with real-time updates</p>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="https://media1.tenor.com/m/OXkz5W1XP3kAAAAC/tenor.gif" alt="Project 3">
-                    <div class="project-info">
-                        <h3>Weather App</h3>
-                        <p>A responsive weather application with location-based forecasts</p>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">My Projects</h2>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="ui">UI/UX</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card" data-category="web">
+        <img src="https://media1.tenor.com/m/MtXOI1p5t4gAAAAd/crazy-cat-funny-cat.gif" alt="Project 1">
+        <div class="project-info">
+          <h3>E-commerce Website</h3>
+          <p>A full‑stack e‑commerce solution built with React and Node.js</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small">Live Demo</a>
+            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+          </div>
         </div>
-    </section>
+      </div>
+      <div class="project-card" data-category="web">
+        <img src="https://media1.tenor.com/m/KAcURw1ORlAAAAAC/phew-robertdowneyjr.gif" alt="Project 2">
+        <div class="project-info">
+          <h3>Task Management App</h3>
+          <p>A collaborative task management application with real‑time updates</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small">Live Demo</a>
+            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" data-category="ui">
+        <img src="https://media1.tenor.com/m/OXkz5W1XP3kAAAAC/tenor.gif" alt="Project 3">
+        <div class="project-info">
+          <h3>Weather App</h3>
+          <p>A responsive weather application with location‑based forecasts</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small">Live Demo</a>
+            <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <!-- เพิ่ม project ที่มี data-category="mobile" ตามต้องการ -->
+    </div>
+  </div>
+</section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -185,15 +198,15 @@
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
-                            <span>your.email@example.com</span>
+                            <span>Nattakit_ka67@live.rmutl.ac.th</span>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <span>+66 12 345 6789</span>
+                            <span>+66 81 468 1393</span>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Bangkok, Thailand</span>
+                            <span>ChaingMai, Thailand</span>
                         </div>
                     </div>
                     <div class="social-links">
@@ -221,9 +234,11 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Your Name. Software Engineering, RMUTL. All rights reserved.</p>
+            <p>&copy; 2025 Kittaphon & Nattakit. Software Engineering, RMUTL. All rights reserved.</p>
         </div>
-    
+    <button class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</button>
     </footer>
 
     <script src="script.js"></script>
